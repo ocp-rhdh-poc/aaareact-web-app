@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "aaareact-web-app"
+  description: "aaareact-web-app for Red Hat Developer Hub"
+  annotations:
+    github.com/project-slug: "ocp-rhdh-poc/aaareact-web-app"
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-namespace: "demo"
+    backstage.io/kubernetes-id: "aaareact-web-app"
+    janus-idp.io/tekton: "aaareact-web-app" 
+    argocd/app-selector: "app.kubernetes.io/instance=aaareact-web-app-bootstrap"
+  links:
+    - title: Documentation
+      url: "https://github.com/ocp-rhdh-poc/aaareact-web-app"
+    - url: "https://devspaces.apps.67c1045bd8856f9bb04f2985.am1.techzone.ibm.com/#https://github.com/ocp-rhdh-poc/aaareact-web-app"
+      title: OpenShift Dev Spaces (VS Code)
+      icon: web
+  tags:
+    - react
+    - argocd
+    - buildconfig
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/rhdh"
