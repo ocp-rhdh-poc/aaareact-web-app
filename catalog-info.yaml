@@ -16,7 +16,7 @@ metadata:
     - url: "https://devspaces.apps.67c1045bd8856f9bb04f2985.am1.techzone.ibm.com/#https://github.com/ocp-rhdh-poc/aaareact-web-app"
       title: OpenShift Dev Spaces (VS Code)
       icon: web
-    - url: "https://www.google.com/"
+    - url: "https://ibmdevsandbox-instanaibm.instana.io/#/application;appId=21hgJdAVQ7CA2uBRBIZ76w"
       title: Instanta
       icon: web
   tags:
