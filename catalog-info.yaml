@@ -16,6 +16,9 @@ metadata:
     - url: "https://devspaces.apps.67c1045bd8856f9bb04f2985.am1.techzone.ibm.com/#https://github.com/ocp-rhdh-poc/aaareact-web-app"
       title: OpenShift Dev Spaces (VS Code)
       icon: web
+    - url: "google.com"
+      title: Instanta
+      icon: web
   tags:
     - react
     - argocd
